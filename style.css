@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Rubik+Doodle+Shadow&display=swap');
+
+*{
+    margin: 0;
+font-family: 'Jost', sans-serif;
+scroll-behavior: smooth;
+}
+
+.header{
+  
+    background-color: #7D0A0A;
+}
+.container{
+    margin: auto;
+    max-width: 1100px;
+}
+.header-container{
+    height: 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link{
+    color: #EAD196;
+    font-size: 25px;
+    text-decoration:none;
+    margin-right: 20px;
+}
+.subtitle b{
+    color: #7D0A0A;
+}
+body{
+    background-color: #F3EDC8;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.main-text{
+    margin-top: 150px;
+    margin-left: 200px;
+      font-family: "Comfortaa", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 900;
+      font-style: normal;
+    }
+    .title{
+        font-size: 50px;
+    }
+    .subtitle{
+        font-size: 25px;
+    }
+      
+      
+.main-img{
+    margin-top: 50px;
+    height: 700px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.card{
+    border: 1px solid #7D0A0A;
+    border-radius: 20px;
+    padding: 30px 20px;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+}
+.card p{
+    font-size: 24px;
+    margin-top: 20px;
+}
+.card img{
+    transition-duration: 0.6s;
+}
+.card img:hover{
+    transform: scale(1.5, 1.5) rotate(360deg);
+}
+.link:hover{
+    color: beige ;
+    transform: scale(2, 2);
+    font-size: 30px;
+}
+.link a{
+    transition-duration: 0.6s;
+}
+.contacts{
+    height: 450px;
+}
+.contacts h1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.links{
+    margin-top: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background-color: #7D0A0A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F3EDC8;
+    height: 100px;
+    font-size: 24px;
+}
+.main-text:hover{
+    transform: scale(1.2, 1.2);
+    font-size: 50px;
+}
+.main-text{
+    transition-duration: 2s;
+}
+.telegram{
+    transition-duration: 2s;
+}
+.telegram:hover{
+    transform: scale(1.2, 1.2);
+}
+.instagram{
+    transition-duration: 2s;
+}
+.instagram:hover{
+    transform: scale(1.2, 1.2);
+}
+.gmail{
+    transition-duration: 2s;
+}
+.gmail:hover{
+    transform: scale(1.2, 1.2);
+}
